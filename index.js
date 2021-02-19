@@ -20,10 +20,9 @@ return factsArray
 
 function iLoveTheBeatles(num){
   var emptyArray = []
-  let i=0;
   do {
   emptyArray.push("I love the Beatles!")
-  i++;
+  num--;
   }
-  while (arr.length>i);
+  while (num);
 }
