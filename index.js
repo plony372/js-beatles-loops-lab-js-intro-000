@@ -25,4 +25,5 @@ function iLoveTheBeatles(num){
   num--;
   }
   while (num);
+  return emptyArray;
 }
