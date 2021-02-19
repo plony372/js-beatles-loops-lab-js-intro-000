@@ -10,8 +10,9 @@ function theBeatlesPlay(musiciansArray, instrumentsArray){
 
 function johnLennonFacts(factsArray){
   var key = 0;
-while(value = factsArray[key++]){
+while(factsArray.length > key){
     factsArray[key] = factsArray[key] + "!!!";
+    key++
 }
 return factsArray
 }
